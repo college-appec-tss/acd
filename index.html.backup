@@ -1,0 +1,333 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ACD Munini, Gakenke | School Information & Admissions</title>
+<meta name="description" content="Official website of ACD Munini in Gakenke, Rwanda. Find school information, academic programmes, admissions, contact details and updates.">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+<link rel="canonical" href="https://acd-munini.example/">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<meta name="theme-color" content="#123b5d">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="ACD Munini, Gakenke | School Information & Admissions">
+<meta property="og:description" content="School information, academics, admissions and contact details for ACD Munini, Gakenke, Rwanda.">
+<meta property="og:url" content="https://acd-munini.example/">
+<meta property="og:site_name" content="ACD Munini">
+<meta property="og:locale" content="en_RW">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="ACD Munini, Gakenke">
+<meta name="twitter:description" content="School information, academics, admissions and contact details.">
+
+<!-- Google Search Console:
+     Replace YOUR_GOOGLE_VERIFICATION_CODE with the code supplied by Search Console.
+     Then remove this comment.
+-->
+<meta name="google-site-verification" content="YOUR_GOOGLE_VERIFICATION_CODE">
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"EducationalOrganization",
+  "@id":"https://acd-munini.example/#school",
+  "name":"ACD Munini",
+  "url":"https://acd-munini.example/",
+  "description":"Educational institution in Munini, Gakenke, Rwanda.",
+  "address":{
+    "@type":"PostalAddress",
+    "addressLocality":"Munini",
+    "addressRegion":"Gakenke",
+    "addressCountry":"RW"
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"WebSite",
+  "@id":"https://acd-munini.example/#website",
+  "url":"https://acd-munini.example/",
+  "name":"ACD Munini",
+  "description":"Official website of ACD Munini, Gakenke, Rwanda."
+}
+</script>
+
+<style>
+:root{
+  --primary:#123b5d;
+  --secondary:#0b6e4f;
+  --accent:#f4b400;
+  --text:#17202a;
+  --muted:#52616b;
+  --bg:#f7f9fb;
+  --surface:#fff;
+  --border:#d9e1e8;
+  --focus:#ff8c00;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  line-height:1.65;
+  color:var(--text);
+  background:var(--bg);
+}
+a{color:var(--primary)}
+a:focus-visible,button:focus-visible{
+  outline:4px solid var(--focus);
+  outline-offset:3px;
+}
+.skip-link{
+  position:absolute;
+  left:-9999px;
+  top:10px;
+  z-index:999;
+  background:#fff;
+  padding:12px 16px;
+}
+.skip-link:focus{left:10px}
+header{
+  background:var(--primary);
+  color:#fff;
+}
+.topbar{
+  max-width:1100px;
+  margin:auto;
+  padding:14px 20px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:20px;
+}
+.brand{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  color:#fff;
+  text-decoration:none;
+  font-weight:800;
+}
+.brand img{width:48px;height:48px}
+nav ul{
+  list-style:none;
+  margin:0;
+  padding:0;
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px;
+}
+nav a{
+  color:#fff;
+  text-decoration:none;
+  padding:8px 10px;
+  border-radius:6px;
+}
+nav a:hover{background:rgba(255,255,255,.14)}
+.hero{
+  background:linear-gradient(135deg,#123b5d,#0b6e4f);
+  color:#fff;
+  padding:70px 20px;
+}
+.hero-inner{
+  max-width:1100px;
+  margin:auto;
+}
+.hero h1{
+  max-width:800px;
+  font-size:clamp(2rem,5vw,3.5rem);
+  line-height:1.1;
+  margin:0 0 20px;
+}
+.hero p{
+  max-width:760px;
+  font-size:1.15rem;
+}
+.button{
+  display:inline-block;
+  background:var(--accent);
+  color:#111;
+  font-weight:800;
+  padding:12px 18px;
+  border-radius:7px;
+  text-decoration:none;
+  margin-top:12px;
+}
+main{max-width:1100px;margin:auto}
+section{
+  padding:55px 20px;
+}
+section h2{
+  font-size:clamp(1.6rem,4vw,2.3rem);
+  margin-top:0;
+}
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+  gap:20px;
+}
+.card{
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-radius:12px;
+  padding:24px;
+}
+.card h3{margin-top:0;color:var(--primary)}
+.muted{color:var(--muted)}
+.contact{
+  background:#eaf2f7;
+}
+footer{
+  background:#102a3d;
+  color:#fff;
+  padding:35px 20px;
+}
+footer a{color:#fff}
+.footer-inner{max-width:1100px;margin:auto}
+@media(max-width:700px){
+  .topbar{align-items:flex-start;flex-direction:column}
+  nav ul{display:block}
+  nav li{margin:5px 0}
+  .hero{padding:50px 20px}
+}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+}
+</style>
+<link rel="icon" type="image/png" href="acd-logo.png">
+<meta name="theme-color" content="#123b5d">
+<style id="acd-branding">
+.acd-brand-logo{width:46px;height:46px;object-fit:contain;display:inline-block;vertical-align:middle;margin-right:10px}
+.acd-background{background-image:linear-gradient(rgba(255,255,255,.88),rgba(255,255,255,.88)),url('download.jpg');background-size:cover;background-position:center;background-repeat:no-repeat}
+@media(max-width:600px){.acd-brand-logo{width:38px;height:38px}.acd-background{background-position:center}}
+</style>
+</head>
+
+<body class="acd-background">
+<img class="acd-logo" src="ACD Munini School Emblem.png" alt="ACD Munini School emblem">
+<a class="skip-link" href="#main-content">Skip to main content</a>
+
+<header>
+  <div class="topbar">
+    <a class="brand" href="/" aria-label="ACD Munini home">
+      <img src="favicon.svg" alt="">
+      <span>ACD Munini</span>
+    </a>
+
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#academics">Academics</a></li>
+        <li><a href="#admissions">Admissions</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main-content">
+
+<section class="hero">
+  <div class="hero-inner">
+    <p>ACD Munini · Gakenke · Rwanda</p>
+    <h1>ACD Munini School</h1>
+    <p>
+      Welcome to the official online information page for ACD Munini,
+      located in Munini, Gakenke, Rwanda.
+    </p>
+    <a class="button" href="#contact">Contact the School</a>
+  </div>
+</section>
+
+<section id="about">
+  <h2>About ACD Munini</h2>
+  <p>
+    ACD Munini is an educational institution located in Munini,
+    Gakenke District, Rwanda.
+  </p>
+  <p class="muted">
+    This section should be updated with the school's verified history,
+    mission, vision, leadership information and other official details.
+  </p>
+</section>
+
+<section id="academics">
+  <h2>Academics</h2>
+  <div class="grid">
+    <article class="card">
+      <h3>Academic Programmes</h3>
+      <p>
+        Information about programmes and subjects offered by the school
+        will be published here.
+      </p>
+    </article>
+
+    <article class="card">
+      <h3>Student Life</h3>
+      <p>
+        Add verified information about clubs, activities, sports and
+        other student opportunities.
+      </p>
+    </article>
+
+    <article class="card">
+      <h3>School Information</h3>
+      <p>
+        Add verified information about school levels, academic calendar
+        and important announcements.
+      </p>
+    </article>
+  </div>
+</section>
+
+<section id="admissions">
+  <h2>Admissions</h2>
+  <div class="card">
+    <p>
+      Admission information, requirements, important dates and
+      application instructions will be published here.
+    </p>
+    <p class="muted">
+      Only publish admission requirements and dates that have been
+      confirmed by the school.
+    </p>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Contact ACD Munini</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Location</h3>
+      <p>Munini, Gakenke District, Rwanda</p>
+    </div>
+
+    <div class="card">
+      <h3>Phone</h3>
+      <p>School phone number: <strong>ADD VERIFIED NUMBER</strong></p>
+    </div>
+
+    <div class="card">
+      <h3>Email</h3>
+      <p>School email: <strong>ADD VERIFIED EMAIL</strong></p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <p><strong>ACD Munini</strong></p>
+    <p>Munini, Gakenke, Rwanda</p>
+    <p>&copy; 2026 ACD Munini. All rights reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>
+
+
