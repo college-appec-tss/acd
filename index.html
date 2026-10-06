@@ -1,54 +1,67 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ACD Munini, Gakenke | School Information & Admissions</title>
-<meta name="description" content="Official website of ACD Munini in Gakenke, Rwanda. Find school information, academic programmes, admissions, contact details and updates.">
+
+<title>ACD Munini, Gakenke, Rwanda | School Information</title>
+
+<meta name="description" content="ACD Munini is a school in Munini, Gakenke District, Rwanda. Find school information, academics, admissions, location and updates.">
+
 <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
-<link rel="canonical" href="https://acd-munini.example/">
-<link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="icon" type="image/png" sizes="48x48" href="/acd-logo.png">
+
+<link rel="canonical" href="https://college-appec-tss.github.io/acd/">
+
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="/acd/favicon.svg">
+<link rel="icon" type="image/png" sizes="48x48" href="/acd/acd-logo.png">
+<link rel="apple-touch-icon" href="/acd/acd-logo.png">
+
 <meta name="theme-color" content="#123b5d">
 
+<!-- Open Graph -->
 <meta property="og:type" content="website">
-<meta property="og:title" content="ACD Munini, Gakenke | School Information & Admissions">
-<meta property="og:description" content="School information, academics, admissions and contact details for ACD Munini, Gakenke, Rwanda.">
-<meta property="og:url" content="https://acd-munini.example/">
+<meta property="og:title" content="ACD Munini, Gakenke, Rwanda | School Information">
+<meta property="og:description" content="School information, academics, admissions and location information for ACD Munini in Gakenke, Rwanda.">
+<meta property="og:url" content="https://college-appec-tss.github.io/acd/">
 <meta property="og:site_name" content="ACD Munini">
 <meta property="og:locale" content="en_RW">
 
+<!-- Twitter -->
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="ACD Munini, Gakenke">
-<meta name="twitter:description" content="School information, academics, admissions and contact details.">
+<meta name="twitter:title" content="ACD Munini, Gakenke, Rwanda">
+<meta name="twitter:description" content="School information, academics, admissions and location information for ACD Munini in Gakenke, Rwanda.">
 
-<meta name="google-site-verification" content="si-0ppxEBrg3Gla-h9QT-iys1ylglCHIRYimhJE8mis" />
-<meta name="google-site-verification" content="YOUR_GOOGLE_VERIFICATION_CODE">
+<!-- Google Search Console verification -->
+<meta name="google-site-verification" content="si-0ppxEBrg3Gla-h9QT-iys1ylglCHIRYimhJE8mis">
 
+<!-- Educational organization structured data -->
 <script type="application/ld+json">
 {
-  "@context":"https://schema.org",
-  "@type":"EducationalOrganization",
-  "@id":"https://acd-munini.example/#school",
-  "name":"ACD Munini",
-  "url":"https://acd-munini.example/",
-  "description":"Educational institution in Munini, Gakenke, Rwanda.",
-  "address":{
-    "@type":"PostalAddress",
-    "addressLocality":"Munini",
-    "addressRegion":"Gakenke",
-    "addressCountry":"RW"
+  "@context": "https://schema.org",
+  "@type": "EducationalOrganization",
+  "@id": "https://college-appec-tss.github.io/acd/#school",
+  "name": "ACD Munini",
+  "url": "https://college-appec-tss.github.io/acd/",
+  "description": "ACD Munini is an educational institution located in Munini, Gakenke District, Rwanda.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Munini",
+    "addressRegion": "Gakenke District",
+    "addressCountry": "RW"
   }
 }
 </script>
 
+<!-- Website structured data -->
 <script type="application/ld+json">
 {
-  "@context":"https://schema.org",
-  "@type":"WebSite",
-  "@id":"https://acd-munini.example/#website",
-  "url":"https://acd-munini.example/",
-  "name":"ACD Munini",
-  "description":"Official website of ACD Munini, Gakenke, Rwanda."
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://college-appec-tss.github.io/acd/#website",
+  "url": "https://college-appec-tss.github.io/acd/",
+  "name": "ACD Munini",
+  "description": "Official online information website for ACD Munini in Gakenke, Rwanda."
 }
 </script>
 
@@ -64,8 +77,15 @@
   --border:#d9e1e8;
   --focus:#ff8c00;
 }
-*{box-sizing:border-box}
-html{scroll-behavior:smooth}
+
+*{
+  box-sizing:border-box;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
 body{
   margin:0;
   font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
@@ -73,11 +93,17 @@ body{
   color:var(--text);
   background:var(--bg);
 }
-a{color:var(--primary)}
-a:focus-visible,button:focus-visible{
+
+a{
+  color:var(--primary);
+}
+
+a:focus-visible,
+button:focus-visible{
   outline:4px solid var(--focus);
   outline-offset:3px;
 }
+
 .skip-link{
   position:absolute;
   left:-9999px;
@@ -86,63 +112,89 @@ a:focus-visible,button:focus-visible{
   background:#fff;
   padding:12px 16px;
 }
-.skip-link:focus{left:10px}
+
+.skip-link:focus{
+  left:10px;
+}
+
 header{
   background:var(--primary);
   color:#fff;
 }
+
 .topbar{
   max-width:1100px;
   margin:auto;
-  padding:14px 20px;
+  padding:12px 20px;
   display:flex;
   align-items:center;
   justify-content:space-between;
   gap:20px;
 }
+
 .brand{
   display:flex;
   align-items:center;
-  gap:12px;
+  gap:10px;
   color:#fff;
   text-decoration:none;
   font-weight:800;
 }
-.brand img{width:48px;height:48px}
+
+.brand img{
+  width:42px;
+  height:42px;
+  object-fit:contain;
+}
+
 nav ul{
   list-style:none;
   margin:0;
   padding:0;
   display:flex;
   flex-wrap:wrap;
-  gap:12px;
+  gap:8px;
 }
+
 nav a{
   color:#fff;
   text-decoration:none;
   padding:8px 10px;
   border-radius:6px;
 }
-nav a:hover{background:rgba(255,255,255,.14)}
+
+nav a:hover{
+  background:rgba(255,255,255,.14);
+}
+
 .hero{
   background:linear-gradient(135deg,#123b5d,#0b6e4f);
   color:#fff;
-  padding:70px 20px;
+  padding:65px 20px;
 }
+
 .hero-inner{
   max-width:1100px;
   margin:auto;
 }
+
 .hero h1{
-  max-width:800px;
-  font-size:clamp(2rem,5vw,3.5rem);
+  max-width:850px;
+  font-size:clamp(2rem,5vw,3.4rem);
   line-height:1.1;
-  margin:0 0 20px;
+  margin:0 0 18px;
 }
+
 .hero p{
-  max-width:760px;
-  font-size:1.15rem;
+  max-width:780px;
+  font-size:1.12rem;
 }
+
+.hero-location{
+  font-weight:700;
+  letter-spacing:.02em;
+}
+
 .button{
   display:inline-block;
   background:var(--accent);
@@ -153,173 +205,462 @@ nav a:hover{background:rgba(255,255,255,.14)}
   text-decoration:none;
   margin-top:12px;
 }
-main{max-width:1100px;margin:auto}
-section{
-  padding:55px 20px;
+
+main{
+  max-width:1100px;
+  margin:auto;
 }
+
+section{
+  padding:52px 20px;
+}
+
 section h2{
   font-size:clamp(1.6rem,4vw,2.3rem);
   margin-top:0;
+  color:var(--primary);
 }
+
 .grid{
   display:grid;
   grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
   gap:20px;
 }
+
 .card{
   background:var(--surface);
   border:1px solid var(--border);
   border-radius:12px;
   padding:24px;
 }
-.card h3{margin-top:0;color:var(--primary)}
-.muted{color:var(--muted)}
+
+.card h3{
+  margin-top:0;
+  color:var(--primary);
+}
+
+.muted{
+  color:var(--muted);
+}
+
+.highlight{
+  background:#eef6f2;
+  border-left:5px solid var(--secondary);
+  padding:20px;
+  border-radius:8px;
+}
+
 .contact{
   background:#eaf2f7;
 }
+
 footer{
   background:#102a3d;
   color:#fff;
   padding:35px 20px;
 }
-footer a{color:#fff}
-.footer-inner{max-width:1100px;margin:auto}
-@media(max-width:700px){
-  .topbar{align-items:flex-start;flex-direction:column}
-  nav ul{display:block}
-  nav li{margin:5px 0}
-  .hero{padding:50px 20px}
+
+footer a{
+  color:#fff;
 }
+
+.footer-inner{
+  max-width:1100px;
+  margin:auto;
+}
+
+.school-emblem{
+  width:70px;
+  height:70px;
+  object-fit:contain;
+  display:block;
+  margin:0 auto 18px;
+}
+
+@media(max-width:700px){
+
+  .topbar{
+    align-items:flex-start;
+    flex-direction:column;
+  }
+
+  nav ul{
+    display:block;
+  }
+
+  nav li{
+    margin:4px 0;
+  }
+
+  .hero{
+    padding:50px 20px;
+  }
+
+  .school-emblem{
+    width:58px;
+    height:58px;
+  }
+
+}
+
 @media(prefers-reduced-motion:reduce){
-  html{scroll-behavior:auto}
+
+  html{
+    scroll-behavior:auto;
+  }
+
 }
 </style>
-<style id="acd-branding">.acd-logo{width:70px;height:70px;object-fit:contain;display:block;margin:12px auto}.acd-brand-logo{width:46px;height:46px;object-fit:contain;display:inline-block;vertical-align:middle;margin-right:10px}@media(max-width:600px){.acd-logo{width:55px;height:55px}.acd-brand-logo{width:38px;height:38px}.acd-background{background-position:center}}</style>
+
 </head>
 
-<body class="acd-background">
-<img class="acd-logo" src="ACD Munini School Emblem.png" alt="ACD Munini School emblem">
-<a class="skip-link" href="#main-content">Skip to main content</a>
+<body>
+
+<a class="skip-link" href="#main-content">
+Skip to main content
+</a>
 
 <header>
+
   <div class="topbar">
-    <a class="brand" href="/" aria-label="ACD Munini home">
-      <img src="favicon.svg" alt="">
+
+    <a class="brand" href="/acd/" aria-label="ACD Munini home">
+
+      <img
+        src="/acd/favicon.svg"
+        alt=""
+        width="42"
+        height="42"
+      >
+
       <span>ACD Munini</span>
+
     </a>
 
     <nav aria-label="Main navigation">
+
       <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#academics">Academics</a></li>
-        <li><a href="#admissions">Admissions</a></li>
-        <li><a href="#contact">Contact</a></li>
+
+        <li>
+          <a href="#about">About</a>
+        </li>
+
+        <li>
+          <a href="#academics">Academics</a>
+        </li>
+
+        <li>
+          <a href="#admissions">Admissions</a>
+        </li>
+
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+
       </ul>
+
     </nav>
+
   </div>
+
 </header>
+
 
 <main id="main-content">
 
-<section class="hero">
-  <div class="hero-inner">
-    <p>ACD Munini · Gakenke · Rwanda</p>
-    <h1>ACD Munini School</h1>
+  <!-- HERO -->
+
+  <section class="hero">
+
+    <div class="hero-inner">
+
+      <img
+        class="school-emblem"
+        src="/acd/ACD%20Munini%20School%20Emblem.png"
+        alt="ACD Munini school emblem"
+        width="70"
+        height="70"
+      >
+
+      <p class="hero-location">
+        ACD Munini · Munini · Gakenke · Rwanda
+      </p>
+
+      <h1>
+        ACD Munini School
+      </h1>
+
+      <p>
+        ACD Munini is an educational institution located in
+        Munini, Gakenke District, Rwanda. This website provides
+        useful school information, academic information,
+        admissions information and updates for students,
+        parents and the wider school community.
+      </p>
+
+      <a class="button" href="#about">
+        Learn About ACD Munini
+      </a>
+
+    </div>
+
+  </section>
+
+
+  <!-- ABOUT -->
+
+  <section id="about">
+
+    <h2>
+      About ACD Munini
+    </h2>
+
     <p>
-      Welcome to the official online information page for ACD Munini,
-      located in Munini, Gakenke, Rwanda.
+      ACD Munini is a school located in Munini, Gakenke District,
+      Rwanda. The school provides an educational environment for
+      learners and serves the local community.
     </p>
-    <a class="button" href="#contact">Contact the School</a>
-  </div>
-</section>
 
-<section id="about">
-  <h2>About ACD Munini</h2>
-  <p>
-    ACD Munini is an educational institution located in Munini,
-    Gakenke District, Rwanda.
-  </p>
-  <p class="muted">
-    This section should be updated with the school's verified history,
-    mission, vision, leadership information and other official details.
-  </p>
-</section>
-
-<section id="academics">
-  <h2>Academics</h2>
-  <div class="grid">
-    <article class="card">
-      <h3>Academic Programmes</h3>
-      <p>
-        Information about programmes and subjects offered by the school
-        will be published here.
-      </p>
-    </article>
-
-    <article class="card">
-      <h3>Student Life</h3>
-      <p>
-        Add verified information about clubs, activities, sports and
-        other student opportunities.
-      </p>
-    </article>
-
-    <article class="card">
-      <h3>School Information</h3>
-      <p>
-        Add verified information about school levels, academic calendar
-        and important announcements.
-      </p>
-    </article>
-  </div>
-</section>
-
-<section id="admissions">
-  <h2>Admissions</h2>
-  <div class="card">
     <p>
-      Admission information, requirements, important dates and
-      application instructions will be published here.
+      This website is designed to make important information
+      about ACD Munini easier to find online for students,
+      parents, teachers and visitors.
     </p>
-    <p class="muted">
-      Only publish admission requirements and dates that have been
-      confirmed by the school.
+
+    <div class="highlight">
+
+      <strong>
+        ACD Munini, Gakenke, Rwanda
+      </strong>
+
+      <p>
+        The school is located in Munini in Gakenke District,
+        Rwanda.
+      </p>
+
+    </div>
+
+  </section>
+
+
+  <!-- ACADEMICS -->
+
+  <section id="academics">
+
+    <h2>
+      Academics at ACD Munini
+    </h2>
+
+    <p>
+      Academic information is an important part of the ACD
+      Munini school community. This website can be used to
+      publish information about learning programmes, subjects,
+      academic activities and school announcements.
     </p>
-  </div>
-</section>
 
-<section id="contact" class="contact">
-  <h2>Contact ACD Munini</h2>
-  <div class="grid">
-    <div class="card">
-      <h3>Location</h3>
-      <p>Munini, Gakenke District, Rwanda</p>
+    <div class="grid">
+
+      <article class="card">
+
+        <h3>
+          Learning
+        </h3>
+
+        <p>
+          ACD Munini provides an educational environment where
+          students can develop knowledge, skills and personal
+          responsibility.
+        </p>
+
+      </article>
+
+
+      <article class="card">
+
+        <h3>
+          Academic Information
+        </h3>
+
+        <p>
+          Students and parents can use this website to find
+          future updates about academic programmes, school
+          activities and important announcements.
+        </p>
+
+      </article>
+
+
+      <article class="card">
+
+        <h3>
+          School Community
+        </h3>
+
+        <p>
+          The school community includes students, parents,
+          teachers and other members of the community working
+          together to support education.
+        </p>
+
+      </article>
+
     </div>
 
-    <div class="card">
-      <h3>Phone</h3>
-      <p>School phone number: <strong>ADD VERIFIED NUMBER</strong></p>
-    </div>
+  </section>
+
+
+  <!-- ADMISSIONS -->
+
+  <section id="admissions">
+
+    <h2>
+      Admissions at ACD Munini
+    </h2>
 
     <div class="card">
-      <h3>Email</h3>
-      <p>School email: <strong>ADD VERIFIED EMAIL</strong></p>
+
+      <p>
+        Parents and students looking for information about
+        ACD Munini admissions can use this website for school
+        updates and official admission information when it is
+        published.
+      </p>
+
+      <p>
+        Admission requirements, application dates, fees and
+        other admission details should be confirmed directly
+        with the school before making an application.
+      </p>
+
     </div>
-  </div>
-</section>
+
+  </section>
+
+
+  <!-- WHY THE SITE -->
+
+  <section>
+
+    <h2>
+      ACD Munini School Information
+    </h2>
+
+    <div class="grid">
+
+      <article class="card">
+
+        <h3>
+          School Location
+        </h3>
+
+        <p>
+          ACD Munini is located in Munini, Gakenke District,
+          Rwanda.
+        </p>
+
+      </article>
+
+
+      <article class="card">
+
+        <h3>
+          School Updates
+        </h3>
+
+        <p>
+          This website provides a place for important school
+          information and future updates to be shared online.
+        </p>
+
+      </article>
+
+
+      <article class="card">
+
+        <h3>
+          Information for Parents
+        </h3>
+
+        <p>
+          Parents can use the website to find general
+          information about ACD Munini and check for future
+          school announcements.
+        </p>
+
+      </article>
+
+    </div>
+
+  </section>
+
+
+  <!-- CONTACT -->
+
+  <section id="contact" class="contact">
+
+    <h2>
+      Contact ACD Munini
+    </h2>
+
+    <div class="grid">
+
+      <div class="card">
+
+        <h3>
+          Location
+        </h3>
+
+        <p>
+          Munini, Gakenke District, Rwanda
+        </p>
+
+      </div>
+
+
+      <div class="card">
+
+        <h3>
+          School Information
+        </h3>
+
+        <p>
+          For official contact details, parents and students
+          should use contact information provided directly
+          by ACD Munini.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
 
 </main>
 
+
 <footer>
+
   <div class="footer-inner">
-    <p><strong>ACD Munini</strong></p>
-    <p>Munini, Gakenke, Rwanda</p>
-    <p>&copy; 2026 ACD Munini. All rights reserved.</p>
+
+    <p>
+      <strong>ACD Munini</strong>
+    </p>
+
+    <p>
+      Munini, Gakenke District, Rwanda
+    </p>
+
+    <p>
+      School information, academics, admissions and updates.
+    </p>
+
+    <p>
+      &copy; 2026 ACD Munini. All rights reserved.
+    </p>
+
   </div>
+
 </footer>
 
 </body>
 </html>
-
-
-
